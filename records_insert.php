@@ -237,6 +237,5 @@ textarea {
     
     <button id="insert-record">Insert Record</button>
     </form>
-    
 </div>
 </div>
