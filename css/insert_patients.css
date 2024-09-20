@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3391E7;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+h1 {
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+width: 100%;
+padding: 10px;
+font-size: 16px;
+font-weight: bold;
+color: #fff;
+background-color: #3391E7;
+border: 1px solid #000;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #fff;
+color: #000;
+}
+/*Side Navigation Bar*/
+.background{
+    background-position: right;
+    background-size:contain;
+}
+.sidenav {
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    width: 21%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #CCC;
+    display: block;
+    transition: 0.3s;
+    font-family: Arial, sans-serif;
+}
+
+.sidenav a:hover {
+    color: #FFF;
+    font-size: 27px;
+}
+
+  .red-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #c61616;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+  

@@ -1,0 +1,110 @@
+/* Form css */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .wrap {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Form Styles */
+  .contact {
+    width: 100%;
+  }
+  
+  .contact-form {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .contact-form input[type="submit"] {
+    background-color: #3391E7;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 1px solid #3391E7;
+  }
+  
+  .contact-form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #3391E7;
+  }
+  
+  /* Company Address Styles */
+  .company_address {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .company_address h2 {
+    margin-bottom: 20px;
+  }
+  
+  .company_address p {
+    margin-bottom: 10px;
+  }
+  
+  /* Grid Layout */
+  .col {
+    padding: 0 15px;
+  }
+  
+  .span_1_of_3 {
+    width: 32%;
+  }
+  
+  .span_2_of_3 {
+    width: 65%;
+  }
+  
+  @media (max-width: 768px) {
+    .col {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

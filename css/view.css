@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3391E7;
+}
+
+.sidenav {
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    width: 21%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #CCC;
+    display: block;
+    transition: 0.3s;
+    font-family: Arial, sans-serif;
+    padding-top: 30px;
+}
+
+.sidenav a:hover {
+    color: #FFF;
+    font-size: 27px;
+}
+
+.container {
+    background-color: #FFF;
+    padding: 22px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.search-container button[type="submit"] {
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3391E7;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 10px;
+}
+
+.search-container button[type="submit"]:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+h1 {
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #000;
+}
+
+table th {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+.form-group {
+    text-align: right;
+}
+
+.main-content {
+    margin-left: 21%;
+    margin-top: 2%;
+    margin-right: 2%;
+}

@@ -1,0 +1,126 @@
+body {
+    background: #3391E7;  
+
+    background: -webkit-linear-gradient(to right, #3391E7, #fff);  
+    background: linear-gradient(to right, #3391E7, #fff); 
+
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+h2 {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-size: 24px;
+}
+
+.inner-title {
+    padding: 20px;
+    margin-bottom: 10px; 
+}
+
+.inner-title h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Ropa Sans', sans-serif;
+    margin-bottom: 30px; 
+  }
+
+.patient-profile .card {
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.patient-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+.patient-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.patient-profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+.patient-profile .table th,
+.patient-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+}
+
+table{
+    border-color: #fff;
+}
+
+.btn {
+    /* background-color: #fff; */
+    /* border: px solid black; */
+    color: #000;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .btn:hover {
+    /* background-color: #000; */
+    color: #3391E7;
+  }
+
+
+.container.profile-src-wrap-main form input {
+    width: 80% !important;
+}
+
+.container.profile-src-wrap-main form button {
+    width: 30% !important;
+}
+
+
+  @media (max-width: 600px) {
+    
+	/* Prfile Styles  */
+    .container.profile-src-wrap-main {
+        width: 100% !important;
+    }
+    
+    .container.profile-src-wrap-main form {
+        width: 100% !important;
+    }
+    
+    .search-container input[type="text"] {
+        width: 70% !important;
+    }
+    
+    .container.profile-src-wrap-main form button {
+        width: 30% !important;
+    }
+    
+    .container.profile-src-wrap-main {
+        margin-left: 0 !important;
+    }
+    
+    .search-container form {
+        display: flex;
+    }
+
+    /* Profile Cards  */
+
+    .card.shadow-sm {
+        margin-top: 10px;
+    }
+
+
+    /* Prole single code  */
+  }

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ropa Sans';
+}
+
+h2 {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-size: 24px;
+    border-radius: 60px;
+}
+
+strong {
+    font-family: 'Ropa Sans';
+}
+
+body {
+    background-color: #f7f7ff !important;
+    font-family: 'Ropa Sans', sans-serif;
+    color: #000; 
+}
+
+.inner-title {
+    padding: 20px;
+    padding-left: 0px;
+    margin-bottom: 30px; 
+}
+
+.inner-title h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Ropa Sans', sans-serif; 
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.inner-title p {
+  width: 100%;
+  text-align: center; 
+}
+
+.key-features .kvxol {
+    padding: 0px; 
+}
+
+.key-features .single-key {
+    background-color: #FFF;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px; 
+}
+
+.key-features .single-key i {
+      background-color: #FFF;
+      padding: 20px;
+      font-size: 42px;
+      color: #3391E7;
+      margin-bottom: 30px;
+      border-radius: 50px; 
+}
+
+.key-features .single-key p {
+        font-family: 'Ropa Sans', sans-serif;
+      font-size: 15px; 
+}
+
+.key-features .ky-1 {
+    background-color: #03509e;
+    color: #FFF;
+    margin-bottom: 0px; 
+}
+
+.key-features .ky-2 {
+    background-color: #0085bc;
+    color: #FFF;
+    margin-bottom: 0px; 
+}
+  
+  .department {
+    /* padding: 80px 50px; */
+    background-color: #FFF; 
+}
+
+
+@media (max-width: 600px) {
+    .col-lg-4.col-md-6 {
+        width: 50% !important;
+    }
+    .key-features .single-key{
+        min-height: 230px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .inner-title h2 {
+        font-size: 20px !important;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+      .department {
+        padding: 50px 10px; } 
+}
+
+.single-key {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.single-key:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.single-key i {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.single-key h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
