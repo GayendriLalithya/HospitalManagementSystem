@@ -237,5 +237,13 @@ textarea {
     
     <button id="insert-record">Insert Record</button>
     </form>
+
+    <div class="row">
+        <div class="col-md-8"></div>
+        <div class="col-md-8"></div>
+        <div class="col-md-8"></div>
+        <div class="col-md-8"></div>
+        <div class="col-md-8"></div>
+    </div>
 </div>
 </div>
